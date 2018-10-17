@@ -12,6 +12,7 @@
 		CE2199CE2173C054009C34F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2199CC2173C054009C34F5 /* Main.storyboard */; };
 		CE2199D02173C056009C34F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2199CF2173C056009C34F5 /* Assets.xcassets */; };
 		CE2199D32173C056009C34F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2199D12173C056009C34F5 /* LaunchScreen.storyboard */; };
+		CE2199DF2174DE66009C34F5 /* DevslopesLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2199DE2174DE66009C34F5 /* DevslopesLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE2199CF2173C056009C34F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2199D22173C056009C34F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2199D42173C056009C34F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2199DE2174DE66009C34F5 /* DevslopesLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevslopesLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		CE2199BC2173C054009C34F5 = {
 			isa = PBXGroup;
 			children = (
+				CE2199DB2174DDB2009C34F5 /* View */,
 				CE2199C72173C054009C34F5 /* dev-profile */,
 				CE2199C62173C054009C34F5 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				CE2199D42173C056009C34F5 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		CE2199DB2174DDB2009C34F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE2199DE2174DE66009C34F5 /* DevslopesLogo.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2199CB2173C054009C34F5 /* ViewController.swift in Sources */,
+				CE2199DF2174DE66009C34F5 /* DevslopesLogo.swift in Sources */,
 				CE2199C92173C054009C34F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
